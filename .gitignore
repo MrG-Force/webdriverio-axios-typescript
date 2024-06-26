@@ -1,0 +1,39 @@
+# Node modules
+/node_modules/
+
+# Test results
+/reports/
+/allure-results/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Dependency directories (commented out if you wish to include them in your version control)
+#/node_modules/
+
+# Dist / compiled files
+/dist/
+/build/
+
+# Environment variables
+.env
+
+# WebDriverIO specific
+*.config.js
+*.conf.ts
